@@ -86,7 +86,14 @@ nav > img {
 align-items: center;
 }
 
-.section-one,
+.section-one{
+  position: relative;
+  padding-top: 9rem;
+  margin-bottom: 11rem;
+  max-width: 82rem;
+  display: flex;
+  justify-content: space-between;
+}
 .section-three,
 .section-two {
   position: relative;
@@ -96,9 +103,7 @@ align-items: center;
   display: flex;
   justify-content: space-between;
 }
-.section-one{ 
-  /* padding-top: 7rem; */
-}
+
 
 
 .section-content {
