@@ -3,7 +3,7 @@
 # Hosting landing page
 > HTML - CSS Project-11
 
-🙌 hey There I'm mangesh Thakre Wed Developer 
+🙌 hey There I'm mangesh Thakre Web Developer 
 ##  What I've learnd form this project 
  
  - Learned to create cardes with transition, smooth shadow effect  
