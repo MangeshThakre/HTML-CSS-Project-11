@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>HTML-CSS-project-11</title>
   </head>
-  <body>
+  <body class="body">
 
     <nav>
       <img src="./images/Logo.svg" alt="logo" />
@@ -37,6 +37,8 @@
         </ul>
         <button>Register Now</button>
       </div>
+      <div class="buttoncontainer">
+        <div class ="hamburger-menu "> </div></div>
     </nav>
 
     <div class="container-1">
@@ -289,7 +291,6 @@ resolved quckly and in real-time eia intercom's live-chat
   <h1>Ouit Worring about <br>Oce-hosetion services</h1>
   <p>
 Lorem ipsum, dolor sit amet consectetur adipisicing elitit amet consectetur<br> adipisicing elit. Libero, nulla.
-
   </p>
  </div>
  <div>
@@ -343,4 +344,25 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elitit amet consectetur<br> 
 
     </div>
   </body>
+
+
+
+
+
+  <script>
+  
+    // const herocontainer = document.querySelector(".hero-container")
+    const body = document.querySelector(".body")
+    const sidebarMenu = document.querySelector(".nav-rignt")
+    const buttoncontainer =document.querySelector(".buttoncontainer")
+    const burgermenu = document.querySelector(".hamburger-menu")
+    buttoncontainer.addEventListener('click' , (e)=>{
+      burgermenu.classList.toggle("cross-menu")
+      sidebarMenu.classList.toggle("close")
+      body.classList.toggle("hide-scroll")
+      // herocontainer.classList.toggle("shadow")
+      
+    })
+  
+  </script>
 </html>
