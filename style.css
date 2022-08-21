@@ -544,6 +544,8 @@ footer > div > p:hover {
   transform: rotate(-45deg);
 }
 
+.buttoncontainer{display: none;}
+
 @media (max-width: 500px) {
   nav > img {
     width: 5rem;
